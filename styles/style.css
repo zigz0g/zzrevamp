@@ -12,3 +12,7 @@ p {
   color: DodgerBlue;
   align: left;
 }
+
+body {
+  background-color: PaleGreen;
+}
