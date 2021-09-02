@@ -3,7 +3,18 @@
 <link href="styles/style.css" rel="stylesheet">
   <link rel="shortcut icon" href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico" type="image/x-icon">
 <title> Home | Schoology </title>
-<script type="text/javascript" src="image.js"></script>
+  <script>
+    function onEvent(event) {
+    if (event.key === "k") {
+        var _img = document.getElementById('id1');
+var newImg = new Image;
+newImg.onload = function() {
+    _img.src = this.src;
+}
+newImg.src = 'https://raw.githubusercontent.com/zigz0g/zzrevamp/main/img/Capture.png';
+    }
+};
+  </script>
 </head>
 <body>
 <h1>Welcome to the revamped ZigZ0g site</h1>
